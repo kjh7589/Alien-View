@@ -12,6 +12,11 @@
 		85B477CE2073586F00BE2501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B477CC2073586F00BE2501 /* Main.storyboard */; };
 		85B477D02073586F00BE2501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B477CF2073586F00BE2501 /* Assets.xcassets */; };
 		85B477D32073586F00BE2501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B477D12073586F00BE2501 /* LaunchScreen.storyboard */; };
+		85B477E12073599C00BE2501 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B477DC2073599B00BE2501 /* frame3.png */; };
+		85B477E22073599C00BE2501 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B477DD2073599B00BE2501 /* frame5.png */; };
+		85B477E32073599C00BE2501 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B477DE2073599B00BE2501 /* frame4.png */; };
+		85B477E42073599C00BE2501 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B477DF2073599C00BE2501 /* frame2.png */; };
+		85B477E52073599C00BE2501 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B477E02073599C00BE2501 /* frame1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		85B477CF2073586F00BE2501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B477D22073586F00BE2501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B477D42073586F00BE2501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B477DC2073599B00BE2501 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		85B477DD2073599B00BE2501 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		85B477DE2073599B00BE2501 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		85B477DF2073599C00BE2501 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		85B477E02073599C00BE2501 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		85B477C72073586F00BE2501 /* Alien View */ = {
 			isa = PBXGroup;
 			children = (
+				85B477DB2073597600BE2501 /* Image */,
 				85B477C82073586F00BE2501 /* AppDelegate.swift */,
 				85B477CA2073586F00BE2501 /* ViewController.swift */,
 				85B477CC2073586F00BE2501 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				85B477D42073586F00BE2501 /* Info.plist */,
 			);
 			path = "Alien View";
+			sourceTree = "<group>";
+		};
+		85B477DB2073597600BE2501 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85B477E02073599C00BE2501 /* frame1.png */,
+				85B477DF2073599C00BE2501 /* frame2.png */,
+				85B477DC2073599B00BE2501 /* frame3.png */,
+				85B477DE2073599B00BE2501 /* frame4.png */,
+				85B477DD2073599B00BE2501 /* frame5.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B477E32073599C00BE2501 /* frame4.png in Resources */,
+				85B477E52073599C00BE2501 /* frame1.png in Resources */,
+				85B477E22073599C00BE2501 /* frame5.png in Resources */,
 				85B477D32073586F00BE2501 /* LaunchScreen.storyboard in Resources */,
 				85B477D02073586F00BE2501 /* Assets.xcassets in Resources */,
+				85B477E42073599C00BE2501 /* frame2.png in Resources */,
 				85B477CE2073586F00BE2501 /* Main.storyboard in Resources */,
+				85B477E12073599C00BE2501 /* frame3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
